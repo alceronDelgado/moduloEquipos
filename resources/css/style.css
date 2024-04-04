@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -48,7 +49,7 @@ body {
 
 #logo {
   width: 70px;
-  margin: 0;
+  margin-left: 10px;
 }
 
 #title {
@@ -70,18 +71,19 @@ body {
 }
 
 .containerRegistrarEquipos {
-  width: 500px;
-  height: 600px;
+  width: 400px;
+  /* height: 300px; */
   margin: 20px auto;
+
 }
 
 .containerRegistrarEquipos .formulario {
   display: grid;
   text-align: center;
-  grid-template-columns: repeat(1, 250px);
-  grid-template-rows: repeat(4, 150px);
+  grid-template-columns: repeat(1, 200px);
+  grid-template-rows: repeat(3, 75px);
   align-items: center;
-  justify-items: center;
+  justify-items: start;
 }
 
 .placa {
@@ -90,20 +92,6 @@ body {
   /* background-color: yellow; */
 }
 
-#placa,
-#numeroSerie,
-#nombreEquipo,
-#modelo,
-#marca-select,
-#area-select,
-#estado-select,
-#instructorACargo {
-  width: 230px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  height: 30px;
-}
 
 .numeroSerie {
   grid-column-start: 1;
@@ -123,16 +111,16 @@ body {
   /* background-color: blue; */
 }
 
-.marca-select {
+.area-select {
   grid-column-start: 0;
   grid-column-end: 1;
-  /* background-color: aqua; */
+  /* background-color: bisque; */
 }
 
-.area-select {
+.marca-select {
   grid-column-start: 1;
   grid-column-end: 2;
-  /* background-color: bisque; */
+  /* background-color: aqua; */
 }
 
 .estado-select {
@@ -148,16 +136,101 @@ body {
   /* background-color: chocolate; */
 }
 
-#save,
+
+.item {
+  /* width: 230px; */
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 30px;
+  font-family: 'Courier New';
+}
+
+::placeholder {
+  font-size: 15px;
+  line-height: 2em;
+
+}
+
+button {
+  border: none;
+  padding: 10px;
+  background-color: white;
+}
+
+
+
+.boton {
+  display: inline-flex;
+  position: relative;
+  left: 50%;
+  margin: 0 auto;
+}
+
+
+
+.boton #save,
 #cancel {
   width: 30px;
   height: 30px;
 }
 
-button {
-  border: none;
+
+@media (width <=550px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  #logo {
+    width: 30px;
+    margin-left: 10px;
+    padding-top: 5px;
+  }
+
+  .title-section {
+    align-items: center;
+    display: block;
+  }
+
+  .title-section #title {
+    font-size: 30px;
+    max-width: 100%;
+    padding: 3px;
+  }
+
+  .containerRegistrarEquipos {
+    display: grid;
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .containerRegistrarEquipos .formulario {
+    grid-template-columns: repeat(1, 250px);
+    grid-template-rows: repeat(3, 50px);
+  }
 }
 
+
+@media (width >=1280px) and (width <1440px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .containerRegistrarEquipos {
+    display: grid;
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .containerRegistrarEquipos .formulario {
+    grid-template-columns: repeat(1, 200px);
+    grid-template-rows: repeat(4, 50px);
+    gap: 5px;
+  }
+
+}
 
 
 /* ALEJANDRO CERON REGISTRAR EQUIPO FIN  */
