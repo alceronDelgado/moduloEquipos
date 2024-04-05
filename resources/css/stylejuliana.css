@@ -16,10 +16,11 @@
     font-family: sans-serif;
     border-radius: 30px 30px;
     width: 400px;
-    margin-left: 650px;
+    margin-left: 50%;
     margin-top: 5%;
     padding: 4%;
     text-align: center;
+    transform: translate(-50%);
 }
 
 #titulo {
