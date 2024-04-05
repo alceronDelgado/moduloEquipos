@@ -71,8 +71,8 @@ body {
 }
 
 .containerRegistrarEquipos {
-  width: 400px;
-  /* height: 300px; */
+  width: 450px;
+  height: 300px;
   margin: 20px auto;
   max-width: 100%;
 }
@@ -81,9 +81,14 @@ body {
   display: grid;
   text-align: center;
   grid-template-columns: repeat(1, 200px);
-  grid-template-rows: repeat(3, 75px);
+  grid-template-rows: repeat(3, 200px);
   align-items: center;
   justify-items: start;
+  border: 1px solid gray;
+  box-shadow: 3px 3px gray;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .placa {
@@ -138,11 +143,11 @@ body {
 
 
 .item {
-  /* width: 230px; */
+  width: 200px;
   border-top: none;
   border-left: none;
   border-right: none;
-  height: 30px;
+  height: 20px;
   font-family: 'Courier New';
 }
 

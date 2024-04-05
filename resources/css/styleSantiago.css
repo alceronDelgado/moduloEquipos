@@ -1,0 +1,246 @@
+.cuadro {
+    border: 2px solid #000;
+    padding: px;
+    width: 2640px;
+    margin: 0 auto;
+    /* Centra el cuadro horizontalmente */
+    text-align: center;
+    /* Centra el contenido dentro del cuadro */
+    background-color: rgb(219, 218, 216);
+    color: #155C3A;
+    text-transform: uppercase;
+    font-family: arial black;
+
+}
+
+.cuadro3 {
+    border: 2px solid #000;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    /* Centra el cuadro horizontalmente */
+    text-align: center;
+    background-color: rgb(248, 173, 61);
+    color: rgb(6, 6, 6);
+    text-transform: uppercase;
+    font-family: arial black;
+
+
+
+
+}
+
+.campos {
+    display: inline-block;
+    width: 150px;
+    /* Ancho de cada campo */
+    margin-right: 30px;
+    /* Espacio entre los campos */
+}
+
+.imagen {
+    position: absolute;
+    /* Posicionamiento absoluto para la imagen */
+    top: 2%;
+    /* Centra la imagen verticalmente */
+    left: 4%;
+    /* Centra la imagen horizontalmente */
+    width: 2cm;
+    height: 2cm;
+}
+
+.imagen2 {
+    position: absolute;
+    /* Posicionamiento absoluto para la imagen */
+    top: 2%;
+    /* Centra la imagen verticalmente */
+    left: 91%;
+    /* Centra la imagen horizontalmente */
+    height: 2cm;
+    left: 65cm;
+    width: 7cm;
+
+
+}
+
+.enlaceinven {
+    color: rgb(0, 0, 0);
+    /* Cambia el color de los enlaces no visitados */
+    width: 120px;
+    /* Define el ancho del botón */
+    height: 40px;
+    /* Define la altura del botón */
+    background-color: #D9D9D9;
+    border-radius: 30%;
+    font-family: arial black;
+    font-size: 13px;
+    border: none;
+
+
+
+
+}
+
+.enlacereg {
+    color: black;
+    /* Cambia el color de los enlaces no visitados */
+    width: 124px;
+    /* Define el ancho del botón */
+    height: 40px;
+    /* Define la altura del botón */
+    background-color: #D9D9D9;
+    border-radius: 30%;
+    font-family: arial black;
+    font-size: 13px;
+    border: none;
+
+}
+
+.enlaceusua {
+    color: black;
+    /* Cambia el color de los enlaces no visitados */
+    width: 120px;
+    /* Define el ancho del botón */
+    height: 40px;
+    /* Define la altura del botón */
+    background-color: #D9D9D9;
+    border-radius: 30%;
+    font-family: arial black;
+    font-size: 13px;
+    border: none;
+
+}
+
+.enlacemante {
+    color: black;
+    /* Cambia el color de los enlaces no visitados */
+    width: 120px;
+    /* Define el ancho del botón */
+    height: 40px;
+    /* Define la altura del botón */
+    background-color: #D9D9D9;
+    border-radius: 30%;
+    font-family: arial black;
+    font-size: 13px;
+    border: none;
+
+}
+
+.enlacearea {
+    color: black;
+    /* Cambia el color de los enlaces no visitados */
+    width: 120px;
+    /* Define el ancho del botón */
+    height: 40px;
+    /* Define la altura del botón */
+    background-color: #D9D9D9;
+    border-radius: 30%;
+    font-family: arial black;
+    font-size: 13px;
+    border: none;
+}
+
+.enlacepres {
+    color: black;
+    /* Cambia el color de los enlaces no visitados */
+    width: 120px;
+    /* Define el ancho del botón */
+    height: 40px;
+    /* Define la altura del botón */
+    background-color: #D9D9D9;
+    border-radius: 30%;
+    font-family: arial black;
+    font-size: 13px;
+    border: none;
+
+}
+
+.enlaceconf {
+    color: black;
+    /* Cambia el color de los enlaces no visitados */
+    width: 124px;
+    /* Define el ancho del botón */
+    height: 40px;
+    /* Define la altura del botón */
+    background-color: #D9D9D9;
+    border-radius: 30%;
+    font-family: arial black;
+    font-size: 13px;
+    border: none;
+}
+
+.enlacesali {
+    color: black;
+    /* Cambia el color de los enlaces no visitados */
+    width: 120px;
+    /* Define el ancho del botón */
+    height: 40px;
+    /* Define la altura del botón */
+    background-color: #D9D9D9;
+    border-radius: 30%;
+    font-family: arial black;
+    font-size: 13px;
+    border: none;
+
+}
+
+.cuadro2 {
+    display: inline-block;
+    width: 130px;
+    height: 400px;
+    background-color: rgb(219, 218, 216);
+    margin-left: -40px;
+    /* Esto es opcional para separar el cuadro del texto */
+    border: 2px solid #000;
+
+}
+
+.tabla {
+    background-color: rgb(240, 243, 240);
+    margin-left: 4cm;
+    margin-right: auto;
+    position: relative;
+    top: -400px;
+    /* ajusta este valor según sea necesario */
+    width: 69%;
+    /* Ancho del 80% */
+    height: 200px;
+    /* Altura de 200 píxeles */
+    border: 2px solid black;
+
+
+
+}
+
+tr,
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+.boton {
+
+    border-radius: 30%;
+    /* Hace que el botón tenga forma circular */
+    width: 90px;
+    /* Define el ancho del botón */
+    height: 50px;
+    /* Define la altura del botón */
+    background-color: #28FFD7;
+    /* Color de fondo del botón */
+    border: 2px solid black;
+    /* Quita el borde del botón */
+    color: black;
+    /* Color del texto */
+    text-align: center;
+    /* Alinea el texto al centro del botón */
+    font-size: 12px;
+    /* Tamaño de fuente */
+    cursor: pointer;
+    /* Cambia el cursor al pasar sobre el botón */
+    box-shadow: 0 4px 8px rgba(95, 234, 82, 0.1);
+    /* Sombra */
+    font-family: arial black;
+}
