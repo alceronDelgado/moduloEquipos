@@ -1,0 +1,103 @@
+#logo {
+  width: 70px;
+  margin-left: 10px;
+}
+
+#title {
+  margin-top: 0;
+  text-align: center;
+  color: #addfcd;
+  background-color: #004034;
+  opacity: 60%;
+  font-size: 56px;
+  padding: 5px;
+}
+
+.title-section {
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+
+.item {
+  /* width: 230px; */
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 30px;
+  font-family: 'Courier New';
+}
+
+
+button {
+  border: none;
+  padding: 10px;
+  background-color: white;
+}
+
+.containerInhabilitar {
+  border: 1px solid gray;
+  max-width: 100%;
+  width: 450px;
+  margin: 20px auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.boton #save,
+#cancel {
+  width: 30px;
+  height: 30px;
+}
+
+
+.serial {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.argumento {
+  margin-top: 90px;
+  text-align: center;
+}
+
+textarea {
+  resize: none;
+  width: 250px;
+  padding-bottom: 15%;
+  border-radius: 10px;
+  padding-right: 100px;
+
+}
+
+form {
+  padding-top: 35%;
+}
+
+.acciones #save,
+#cancel {
+  width: 30px;
+  height: 30px;
+
+}
+
+.boton1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
+}
+
+
+
+.boton1 #save,
+#cancel {
+  width: 30px;
+  height: 30px;
+}
